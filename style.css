@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+/*#img-logo {
+    max-width: 25%;
+    max-height: 25%;
+}*/
+
+.navbar-brand:hover{
+    color: #232323ff;
+}
+.nav-link{
+
+    color: #232323ff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover{
+    color: #232323ff;
+}
+
+.search{
+    height: 40px ;
+    width: 80%;
+    border-radius: 60px ;
+    outline: none;
+    border: 2px solid #D80F24ff ;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -35px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    background-color: #D80F24ff;
+    color: #FDF8F9ff;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.main{
+    background: url(./img/black-boy-posing-with-vinyls.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-family: 'Lato', bold, sans-serif;
+    font-size: 4rem;
+    font-weight: 700 ;
+    color: #CAABADff;
+}
+.btn1{
+    height: 40px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #D80F24ff;
+    color: #FDF8F9ff;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card{
+    padding:10px;
+    box-shadow: 2px -2px 42px -10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px -2px 42px -10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px -2px 42px -10px rgba(0,0,0,0.24);
+}
+
+
+
+
+
+footer{
+    background-color: #232323ff;
+    text-align: center;
+    color: #CAABADff ;
+}
+footer a{
+    color: #D80F24ff  
+}
+
+/* CSS HEX 
+--white: #FFFFFFff;
+--eerie-black: #232323ff;
+--rosy-brown: #CAABADff;
+--snow: #FDF8F9ff;
+--fire-engine-red: #D80F24ff;
+*/
