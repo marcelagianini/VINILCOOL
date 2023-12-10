@@ -155,6 +155,66 @@ color: #FDF8F9ff;
 }
 
 
+.btn4{
+    height: 40px;
+    width: 32%;
+    border: none;
+    outline: none;
+    background-color: #D80F24ff;
+    color: #FDF8F9ff;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.btn5{
+    height: 40px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #D80F24ff;
+    color: #FDF8F9ff;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+
+}
+h3{
+    color:#232323ff;
+    font-family: 'Lato', sans-serif;    
+    text-align: center;
+}
+
+a:link{
+    color: #FDF8F9ff;
+
+}
+a:visited{
+    color: #CAABADff;
+}
+a:hover{
+    color:blue ;
+}
+a:active{
+    color: #FDF8F9ff; 
+
+}
+
+nav:link{
+    color: #232323ff;
+}
+nav:visited{
+    color: #232323ff;
+}
+nav:hover{
+    color: #232323ff;
+}
+nav:active{
+    color: #232323ff;
+}
+
 /* CSS HEX 
 --white: #FFFFFFff;
 --eerie-black: #232323ff;
