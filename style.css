@@ -6,7 +6,8 @@
 }
 .navbar{
     border: 1cm;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 
 }
 .navbar-brand{
@@ -215,6 +216,70 @@ nav:active{
     color: #232323ff;
 }
 
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 70%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 30%;
+    color: white;
+}
+.contact-right img{
+    width: 400px;
+    height:600px ;
+    object-fit: fill;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45px;
+
+}
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    
+    margin-bottom: 6px;
+    display: block;
+    color: #D80F24ff;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1{
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #D80F24ff;
+text-align: center;
+
+}
+
+h3{
+    font-family: 'Lato', italic, sans-serif;
+    font-size: medium;
+    color: #D80F24ff;
+    text-align: center;
+}
 /* CSS HEX 
 --white: #FFFFFFff;
 --eerie-black: #232323ff;
