@@ -8,7 +8,7 @@
     border: 1cm;
     border-radius: 10px;
     background-color: #f9f9f9;
-
+    color: #232323ff;
 }
 .navbar-brand{
     margin: 0;
@@ -23,7 +23,7 @@
     color: #232323ff;
 }
 .nav-link{
-
+    
     color: #232323ff;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -31,9 +31,12 @@
 }
 
 .nav-link:hover{
-    color: #232323ff;
+    color: #D80F24ff;
 }
 
+.nav-link:visited{
+    color: #232323ff;
+}
 .search{
     height: 40px ;
     padding-left: 30px;
@@ -66,10 +69,10 @@
 }
 
 .main h1{
-    font-family: 'Chivo', italic, sans-serif;
+    font-family: 'Lobster Two', bold, sans-serif;
     font-size: 4rem;
     font-weight: 700 ;
-    color: #CAABADff;
+    color: #232323ff;
 }
 .btn1{
     height: 40px;
@@ -280,6 +283,20 @@ h3{
     color: #D80F24ff;
     text-align: center;
 }
+
+.containerQUEM{
+    padding-left:25% ;
+    padding-right:25%;
+    display: flex;
+    text-align: justify;
+}
+.containerQUEM h4{
+ text-align: center ;
+
+}
+
+
+
 /* CSS HEX 
 --white: #FFFFFFff;
 --eerie-black: #232323ff;
